@@ -4,6 +4,23 @@
 
 <h1>進化史</h1>
 <p id="demo">卡拉卡拉&嘎拉嘎拉</p>
+<style>
+.h-flex-container {display: flex; flex-direction: row; height:100%;}
+.h-flex-container div {width:50%; position:relative;}
+.background {background-position: center; background-repeat: no-repeat; background-size: cover; opacity: 50%}
+#sec1 {background-image: url("https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/6c44a0ccb922bbb4345214f3fa0b9436a03c11f2.png");}
+#sec2 {background-image: url("https://2.bp.blogspot.com/-eVTR7YWO5Rw/WCR6mLcDNYI/AAAAAAAAONQ/2qtYf93epPsWKmx0d9jcXvGse7WB0M5hwCK4B/s400/Marowak.png");}
+h2 {position: absolute; text-align: center; top:25%; left:50%; transform: translate(-50%, -50%);}
+</style>
+<body>
+<div class="h-flex-container">
+<div id="sec1" class="background"></div>
+<div><h2><a href="#sec2">卡拉卡拉</a></h2></div>
+</div>
+<div class="h-flex-container">
+<div><h2><a href="#sec1">嘎拉嘎拉</a></h2></div>
+<div id="sec2" class="background"></div>
+</div>
 </body>
 <style>
 #header {height:150px;background-color:#f9c81e;padding:1em}
@@ -72,23 +89,7 @@ y.style.display ="block";
 }
 </script></body>
 </div>
-<style>
-.h-flex-container {display: flex; flex-direction: row; height:100%;}
-.h-flex-container div {width:50%; position:relative;}
-.background {background-position: center; background-repeat: no-repeat; background-size: cover; opacity: 50%}
-#sec1 {background-image: url("https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/6c44a0ccb922bbb4345214f3fa0b9436a03c11f2.png");}
-#sec2 {background-image: url("https://2.bp.blogspot.com/-eVTR7YWO5Rw/WCR6mLcDNYI/AAAAAAAAONQ/2qtYf93epPsWKmx0d9jcXvGse7WB0M5hwCK4B/s400/Marowak.png");}
-h2 {position: absolute; text-align: center; top:25%; left:50%; transform: translate(-50%, -50%);}
-</style>
-<body>
-<div class="h-flex-container">
-<div id="sec1" class="background"></div>
-<div><h2><a href="#sec2">卡拉卡拉</a></h2></div>
-</div>
-<div class="h-flex-container">
-<div><h2><a href="#sec1">嘎拉嘎拉</a></h2></div>
-<div id="sec2" class="background"></div>
-</div>
+
 
 </body>
 </html>
